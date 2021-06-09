@@ -1,0 +1,103 @@
+.collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
+
+  .show,.active{
+      display: block;
+  }
+
+  .hide{
+    display: none; 
+  }
+  a.button4{
+    display:inline-block;
+    padding:0.3em 1.2em;
+    margin:0 0.1em 0.1em 0;
+    border:0.16em solid rgba(255,255,255,0);
+    border-radius:5px;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#FFFFFF;
+    text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+    text-align:center;
+    transition: all 0.2s;
+    background-color:#4e9af1;
+    cursor:pointer;
+    }
+    a.button4:hover{
+    border-color: rgba(255,255,255,1);
+    }
+
+    .mainContainer{
+        width: 400px;
+        height: 600px;
+        background-color: #ddd;
+        padding: 2rem;
+        border-radius: 5px;
+    }
+
+    .zoneName{
+        width: 95%;
+        padding: 10px;
+        margin-left: 20px;
+        cursor: pointer;
+    }
+
+    .stateContainer{
+        width: 90%;
+        padding: 10px;
+        margin-left: 30px;
+    }
+
+    .stateName{
+        padding: 10px;
+        color: blue;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
+    .section2{
+        margin-top: 30px;
+    }
+
+    .expandall,.collapseall{
+        padding: 10px;
+        margin-right: 10px;
+    }
+
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      }
+      
+      td, th {
+        border: 1px solid #FFFFFF;
+        text-align: left;
+        padding: 8px;
+      }
+      
+      tr:nth-child(even) {
+        background-color: #FFFFFF;
+      }
+
+      .stateDetails{
+          margin-top: 50px;
+      }
